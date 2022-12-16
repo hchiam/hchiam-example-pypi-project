@@ -1,56 +1,15 @@
 [project]
-# This is the name of your project. The first time you publish this
-# package, this name will be registered for you. It will determine how
-# users can install this project, e.g.:
-#
-# $ pip install example_package_hchiam
-#
-# And where it will live on PyPI: https://pypi.org/project/example_package_hchiam/
-#
-# There are some restrictions on what makes a valid project name
-# specification here:
-# https://packaging.python.org/specifications/core-metadata/#name
-name = "example_package_hchiam"  # Required
-
-# Versions should comply with PEP 440:
-# https://www.python.org/dev/peps/pep-0440/
-#
-# For a discussion on single-sourcing the version, see
-# https://packaging.python.org/guides/single-sourcing-package-version/
+name = "example_package_hchiam"
 version = "0.0.2"  # Required
-
-# This is a one-line description or tagline of what your project does. This
-# corresponds to the "Summary" metadata field:
-# https://packaging.python.org/specifications/core-metadata/#summary
 description = "A sample Python project"  # Optional
-
-# This is an optional longer description of your project that represents
-# the body of text which users will see when they visit PyPI.
-#
-# Often, this is the same as your README, so you can just read it in from
-# that file directly (as we have already done above)
-#
-# This field corresponds to the "Description" metadata field:
-# https://packaging.python.org/specifications/core-metadata/#description-optional
 readme = "README.md" # Optional
 
-# Specify which Python versions you support. In contrast to the
-# 'Programming Language' classifiers above, 'pip install' will check this
+# 'pip install' will check this
 # and refuse to install the project if the version does not match. See
 # https://packaging.python.org/guides/distributing-packages-using-setuptools/#python-requires
 requires-python = ">=3.7"
 
-# This is either text indicating the license for the distribution, or a file
-# that contains the license
-# https://packaging.python.org/en/latest/specifications/core-metadata/#license
 license = {file = "LICENSE.txt"}
-
-# This field adds keywords for your project which will appear on the
-# project page. What does your project relate to?
-#
-# Note that this is a list of additional keywords, separated
-# by commas, to be used to assist searching for the distribution in a
-# larger catalog.
 keywords = ["sample", "setuptools", "development"]  # Optional
 
 # This should be your name or the name of the organization who originally
