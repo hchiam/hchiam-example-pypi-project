@@ -54,8 +54,10 @@ from example_package_hchiam.example import add_one
 # update code
 # update pyproject.toml version number
 # remove the old .whl and .gz files
-rm dist/*
+rm -rf dist
 python3 -m build
 python3 -m twine upload --repository testpypi dist/*
 python3 -m twine upload dist/*
+
+python3 -m pip install example_package_hchiam
 ```
