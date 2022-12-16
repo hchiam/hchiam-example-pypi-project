@@ -4,6 +4,7 @@
 
 import unittest
 
+from example_package_hchiam import hi
 from example_package_hchiam.innermodule import add_one
 
 

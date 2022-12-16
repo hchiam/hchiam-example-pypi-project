@@ -42,10 +42,10 @@ https://pypi.org/project/example-package-hchiam/
 python3 -m pip install example_package_hchiam
 ```
 
-`/tests/test_example.py` shows a good example of how the package will be used by users, where you can see a method from an inner/non-`__init__` file, e.g.:
+`/tests/test_innermodule.py` shows a good example of how the package will be used by users, where you can see a method from an inner/non-`__init__` file, e.g.:
 
 ```py
-from example_package_hchiam.example import add_one
+from example_package_hchiam.innermodule import add_one
 ```
 
 ## Streamlined thereafter:
