@@ -1,3 +1,24 @@
+# My notes:
+
+https://packaging.python.org/en/latest/tutorials/packaging-projects/#generating-distribution-archives
+```sh
+python3 -m pip install --upgrade build
+# go to folder that contains pyproject.toml and run this:
+python3 -m build
+```
+https://packaging.python.org/en/latest/tutorials/packaging-projects/#uploading-the-distribution-archives
+```sh
+python3 -m pip install --upgrade twine
+# go folder containing dist and run this:
+python3 -m twine upload --repository testpypi dist/*
+```
+```sh
+python3 -m twine upload dist/*
+```
+```sh
+python3 -m pip install [your-package]
+```
+
 # A sample Python project
 
 ![Python Logo](https://www.python.org/static/community_logos/python-logo.png "Sample inline image")
